@@ -24,22 +24,22 @@
     </plugin>
 </plugins>
     <sourceDirectory>
-      ${project.basedir}/src
+      ${project.basedir}/Source Code Inspection/src
     </sourceDirectory>
     <testSourceDirectory>
-      ${project.basedir}/test
+      ${project.basedir}/Source Code Inspection/test
     </testSourceDirectory>
     <resources>
           <resource>
                  <directory>
-                   ${project.basedir}/src
+                   ${project.basedir}/Source Code Inspection/src
                  </directory>
           </resource>
     </resources>
     <testResources>
           <testResource>
                  <directory>
-                   ${project.basedir}/test
+                   ${project.basedir}/Source Code Inspection/test
                  </directory>
           </testResource>
     </testResources>
