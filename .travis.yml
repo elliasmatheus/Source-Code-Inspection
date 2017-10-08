@@ -1,9 +1,10 @@
 language: java
-script:
- - mvn test
-jdk:
- - oraclejdk8
 before_install:
  - pip install --user codecov
 after_sucess:
  - codecov
+script:
+ - mvn test
+jdk:
+ - oraclejdk8
+
