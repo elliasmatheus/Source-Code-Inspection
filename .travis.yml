@@ -7,3 +7,4 @@ after_sucess:
 jdk:
  - oraclejdk8
 script: "mvn cobertura:cobertura"
+token: dd2273e9-0930-4678-b792-19906907e7c8
