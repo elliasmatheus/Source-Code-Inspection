@@ -1,8 +1,9 @@
 language: java
+sudo: false # faster builds
 before_install:
  - pip install --user codecov
 after_sucess:
  - bash <(curl -s https://codecov.io/bash)
 jdk:
  - oraclejdk8
-
+script: "mvn cobertura:cobertura"
